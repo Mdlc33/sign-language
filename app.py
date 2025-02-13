@@ -2,6 +2,7 @@ import streamlit as st
 from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
+import keras
 
 # Cargar el modelo
 load_model_2=keras.models.load_model('modelo_Sign_Language.h5')
